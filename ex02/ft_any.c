@@ -6,11 +6,11 @@
 /*   By: manuel <mlrcbsousa@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/05 02:02:39 by manuel            #+#    #+#             */
-/*   Updated: 2021/02/05 02:05:48 by manuel           ###   ########.fr       */
+/*   Updated: 2021/02/05 23:30:37 by manuel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_any(char **tab, int(*f)(char*))
+int	ft_any(char **tab, int (*f)(char*))
 {
 	while (*tab)
 	{

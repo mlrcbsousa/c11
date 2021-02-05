@@ -6,11 +6,11 @@
 /*   By: manuel <mlrcbsousa@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/05 01:00:59 by manuel            #+#    #+#             */
-/*   Updated: 2021/02/05 01:02:36 by manuel           ###   ########.fr       */
+/*   Updated: 2021/02/05 23:29:52 by manuel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_foreach(int *tab, int length, void(*f)(int))
+void	ft_foreach(int *tab, int length, void (*f)(int))
 {
 	int i;
 
